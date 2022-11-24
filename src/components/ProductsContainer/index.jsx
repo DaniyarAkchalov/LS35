@@ -5,8 +5,7 @@ import s from "./index.module.css";
 import { Context } from "../../contex";
 
 export default function ProductsContainer() {
-
-    const { products } = useContext(Context)
+  const { products } = useContext(Context);
   return (
     <div className={s.products_container}>
       {products.map((el) => (

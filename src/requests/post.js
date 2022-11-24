@@ -1,0 +1,21 @@
+
+export const getPosts = (callback) => {
+    fetch('https://dummyjson.com/posts')
+    .then(resp => resp.json())
+    .then(json => callback(json.posts))
+
+}
+
+export const addPost = (body, callback) => {
+    fetch("https://dummyjson.com/posts/add", {
+      metod: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+  
+      body: JSON.stringify(body),
+    })
+      .then((resp) => resp.json())
+      .then((json) => callback(json));
+  };
+  
