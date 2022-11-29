@@ -8,7 +8,7 @@ export const getProducts = (callback) => {
 
 export const addProduct = (body, callback) => {
     fetch("https://dummyjson.com/products/add", {
-      metod: "POST",
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },

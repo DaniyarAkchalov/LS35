@@ -8,6 +8,7 @@ export default function NavMenu() {
       <Link to='/users_page'>Users</Link>
       <Link to='/products_page'>Products</Link>
       <Link to='/posts_page'>Posts</Link>
+      <Link to='/todos_page'>ToDoList</Link>
     </div>
     
   )

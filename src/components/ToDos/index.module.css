@@ -1,0 +1,10 @@
+.todo_card {
+    border: 1px solid transparent;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size:x-large;
+    color: red;
+  }
+  

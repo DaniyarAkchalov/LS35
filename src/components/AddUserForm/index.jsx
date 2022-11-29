@@ -14,9 +14,9 @@ export default function AddUserForm() {
     formState: { errors },
   } = useForm({ mode: "onBlur" });
 
-  const submit = (data) => {
+  const submit = data => {
     console.log(data);
-    addUser(data, createNewUser);
+    addUser(data, createNewUser)
   };
 
   const firstnameRegister = register("firstName", {

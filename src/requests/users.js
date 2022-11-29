@@ -6,7 +6,7 @@ export const getUsers = (callback) => {
 
 export const addUser = (body, callback) => {
   fetch("https://dummyjson.com/users/add", {
-    metod: "POST",
+    method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
